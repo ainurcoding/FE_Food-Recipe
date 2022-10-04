@@ -1,0 +1,79 @@
+/* detail video recipe list page */
+
+.container-lp {
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+    list-style: none !important;
+}
+.col-lp-2 {
+    width: 4%;
+    
+}
+
+.container-lp .col-lp-10 {
+    width: 96%;
+}
+
+.yellow-aside {
+    position: absolute;
+    background-color: #efc81a;
+    
+    
+    
+}
+
+.main-video-lp {
+    width: 100%;
+    height: 620px;
+    padding-left: 10%;
+}
+.video-title-lp {
+    padding-left: 10%;
+    font-size: 32px;
+}
+
+.video-desc-lp {
+    padding-left: 10%;
+    font-size: 24px;
+}
+
+/* side video section */
+.col-4 {
+    height: 700px;
+    
+}
+.side-v-lp  {
+    height: 80%;
+    overflow: auto;
+}
+.video-side-next {
+    font-size: 24px;
+}
+
+.side-video-lp {
+    width: 50%;
+    height: 160px;
+}
+
+.side-title-lp {
+    width: 50%;
+    font-size: 16px;
+}
+
+.side-desc-lp {
+    width: 50%;
+    font-size: 10px;
+}
+
+/* end of side video section */
+
+
+
+
+
+.nav-lp {
+    width: max-content;
+    height: max-content;
+}
+/* end of detail video recipe list page */
