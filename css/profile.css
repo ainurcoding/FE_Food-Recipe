@@ -62,8 +62,11 @@
 .card {
     display: inline;
     border: none;
-    
-    
+}
+
+.multi-collapse {
+    margin: auto;
+    width: 70%;
 }
 
 .col-card {
