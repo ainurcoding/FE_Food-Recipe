@@ -57,19 +57,6 @@ nav {
 }
 
 
-
-.nav-item {
-    padding-left: 94px;
-
-}
-
-.nav-link {
-    font-size: 18px;
-    font-weight: 100;
-    color: #2E266F;
-
-}
-
 .nav-link:hover {
     color: #efc81a;
 }
@@ -78,9 +65,6 @@ nav {
     margin-left: 100%;
 }
 
-.nav-link {
-    width: max-content;
-}
 
 
 /* end of nav section */

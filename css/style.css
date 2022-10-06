@@ -2,6 +2,7 @@
     /* inter*/
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
     /* airbnb */
+
 /* font airbnb */
 @font-face {
 
@@ -33,6 +34,17 @@ body {
     list-style: none !important;
 }
 
+.airbnb-lt {
+    font-family: 'airbnb_lt', sans-serif;
+}
+
+.airbnb-md {
+    font-family: 'airbnb_md', sans-serif;
+}
+
+.airbnb-bd {
+    font-family: 'airbnb_bd', sans-serif;
+}
 /* banner section */
 body .banner {
     background-color: #efc81a;
@@ -85,6 +97,11 @@ label {
     font-family: 'Inter', sans-serif;
     font-size: 0.9rem;
     font-weight: 100 !important;
+}
+
+input[type="text"]::placeholder {
+    font-family: 'airbnb-lt';
+    padding-left: 10% !important;
 }
 
 p {
@@ -159,16 +176,21 @@ p {
 }
 
 input {
-    text-align: center;
+    height: 100%;
+    width: 80%;
 }
 
 ::-webkit-input-placeholder {
-    text-align: center;
-    font-weight: 100;
+    font-family: 'airbnb_lt' sans-serif;
+    text-align: left;
+    /* font-weight: 100; */
+    padding: 1%;
 }
 
 :-moz-placeholder {
-    text-align: center;
+    font-family: 'airbnb_lt' sans-serif;
+    text-align: left;
+    padding: 1%;
 }
 
 .line {
@@ -196,4 +218,18 @@ input {
 
 .nav {
     list-style: none !important;
+}
+
+
+/* responsive smartphone */
+    /* mengatur element untuk maximal layar 640px */
+@media (max-width: 640px) {
+    .fs-6-xs {
+        font-size: 12px !important;
+    }
+
+    .col-xs-12 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
 }
