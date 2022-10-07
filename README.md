@@ -1,3 +1,3 @@
 # FE_Food-Recipe
 ## Login Page
-![alt tag](SS food_recipe/Login Page.png)
+<img src="/SS food_recipe/Login Page.png" alt="Alt text" title="Optional title">
